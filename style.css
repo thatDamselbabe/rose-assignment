@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a.link{
+    background-color: blue;
+}
+h2{
+    text-align: center;
+    padding: 6px 0;
+}
+.container{
+    width: 500px;
+    margin: auto;
+}
+.content {
+    border: 1px solid black;
+    position: relative;
+}
+.sale {
+    position: absolute;
+    background-color: red;
+    padding: 4px 3px;
+    color: white;
+    left: -23px;
+    top: -1px;
+}
+.gray {
+    color: rgba(150, 149, 149, 0.906);
+}
+.content h2 {
+    background-color: rgba(201, 198, 198, 0.918);
+}
+a {
+    color: black;
+    font-size: 15px;
+}
+.colors {
+    display: flex;
+    gap: 1.4rem;
+    margin: 12px 0;
+}
+.boxes {
+    width: 20px;
+    height: 20px;
+}
+.black {
+    background-color: black;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.brown {
+    background-color: brown;
+}
+li {
+    list-style-position: inside;
+}
+button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 12px 0;
+    cursor: pointer;
+}
